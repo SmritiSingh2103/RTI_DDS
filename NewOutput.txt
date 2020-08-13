@@ -1,0 +1,4546 @@
+
+C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015>Hello sub -v -d 2 -t hello -p 7400
+Hello Example Application for TCP transport
+Copyright 2008 Real-Time Innovations, Inc.
+
+Running with the following arguments:
+    Verbosity level.. : 1
+    Payload size..... : 1023
+    Sample count..... : 0
+    Domain ID........ : 2
+    Topic name....... : hello
+RTI Product Version.. : 6.0.0.0
+TCP Settings:
+    Public address... : not set (use LAN mode)
+    Server bind port. : 7400
+    Use async send... : NO
+    Use TLS ......... : NO
+# The output below depends on the QoS profile
+# provided to this application.
+# -> For more information on the provided example
+#    profiles, please see the Getting Started Guide.
+# -> For detailed product performance metrics, visit
+#    http://www.rti.com/products/data_distribution/index.html
+#    and click on Benchmarks.
+
+! Warning:
+! Default QoS profile definition file not found.
+! The application will use the DDS default QoS.
+! If you want to use different QoS, make sure you have the QoS definition file
+! (USER_QOS_PROFILES.xml) in the current working directory
+! or set the environment variable NDDS_QOS_PROFILES to
+! point to a file containing the default QoS profile
+Creating domain participant...
+RTI Connext DDS EVAL License issued to NA shobhavishwanath.kanade@philips.com For non-production use only.
+Expires on 10-Oct-2019 See www.rti.com for more information.
+Creating the topic...
+Creating the data reader...
+
+Sec.from|Total     |Total Lost|Curr Lost |Average   |Current   |Current
+start   |samples   |samples   |samples   |smpls/sec |smpls/sec |Mb/sec
+--------+----------+----------+----------+----------+----------+----------
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: subscription matched.
+->Callback: liveliness changed.
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+3) payload size 1
+4) sample count 0 ; callback data sample recieved 1
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 2
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 55 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 3
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 4
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 5
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 6
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 7
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 8
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 9
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 10
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 11
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 12
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 13
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 14
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 15
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 16
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 17
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 54 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 18
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 19
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 55 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 20
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 21
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 54 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 22
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 23
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 24
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 55 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 25
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 26
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 27
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 55 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 28
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 29
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 30
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 31
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 32
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 33
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 34
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 35
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 36
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 37
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 38
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 39
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 40
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 41
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 42
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 43
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 44
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 45
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 53 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 46
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 47
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 48
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 49
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 54 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 50
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 51
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 52
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 55 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 53
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 54
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 54 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 55
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 56
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 57
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 58
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 59
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 60
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 61
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 62
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 63
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 64
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 65
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 66
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 67
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 68
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 69
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 55 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 70
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 71
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 72
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 73
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 74
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 75
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 76
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 77
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 78
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 79
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 80
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 81
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 82
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 83
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 84
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 85
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 55 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 86
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 87
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 88
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 53 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 89
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 54 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 90
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 91
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 92
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 93
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 94
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 95
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 96
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 97
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 98
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 99
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 100
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 101
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 102
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 103
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 104
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 105
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 106
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 107
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 108
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 109
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 110
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 111
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 112
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 113
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 114
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 115
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 116
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 117
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 118
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 119
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 120
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 121
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 122
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 123
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 124
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 125
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 126
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 127
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 128
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 129
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 130
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 131
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 132
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 133
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 134
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 135
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 136
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 137
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 138
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 139
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 140
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 141
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 142
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 142
+No data...
+4) sample count 0 ; callback data sample recieved 143
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 144
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 145
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 146
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 147
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 53 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 148
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 149
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 54 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 150
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 151
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 152
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 153
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 154
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 155
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 55 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 156
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 157
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 158
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 159
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 160
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 161
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 162
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 50 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 163
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 51 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 164
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 165
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 54 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 166
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 167
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 168
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 169
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 170
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 171
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 172
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 173
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 45 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 174
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 175
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 176
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 177
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 178
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 56 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 179
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 180
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 52 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 181
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 57 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+4) sample count 0 ; callback data sample recieved 182
+No data...
+->Callback: data available matched.
+0) data sequence 833609488, i = 0
+ 1) instance 49 me 833609104
+2) Sample id received 821028972, idchar = 833609048
+^C
+C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015>Hello sub -v -d 2 -t hello -p 7400
+Hello Example Application for TCP transport
+Copyright 2008 Real-Time Innovations, Inc.
+
+Running with the following arguments:
+    Verbosity level.. : 1
+    Payload size..... : 1023
+    Sample count..... : 0
+    Domain ID........ : 2
+    Topic name....... : hello
+RTI Product Version.. : 6.0.0.0
+TCP Settings:
+    Public address... : not set (use LAN mode)
+    Server bind port. : 7400
+    Use async send... : NO
+    Use TLS ......... : NO
+# The output below depends on the QoS profile
+# provided to this application.
+# -> For more information on the provided example
+#    profiles, please see the Getting Started Guide.
+# -> For detailed product performance metrics, visit
+#    http://www.rti.com/products/data_distribution/index.html
+#    and click on Benchmarks.
+
+! Warning:
+! Default QoS profile definition file not found.
+! The application will use the DDS default QoS.
+! If you want to use different QoS, make sure you have the QoS definition file
+! (USER_QOS_PROFILES.xml) in the current working directory
+! or set the environment variable NDDS_QOS_PROFILES to
+! point to a file containing the default QoS profile
+Creating domain participant...
+RTI Connext DDS EVAL License issued to NA shobhavishwanath.kanade@philips.com For non-production use only.
+Expires on 10-Oct-2019 See www.rti.com for more information.
+Creating the topic...
+Creating the data reader...
+
+Sec.from|Total     |Total Lost|Curr Lost |Average   |Current   |Current
+start   |samples   |samples   |samples   |smpls/sec |smpls/sec |Mb/sec
+--------+----------+----------+----------+----------+----------+----------
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: subscription matched.
+->Callback: liveliness changed.
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: data available matched.
+0) data sequence -206576272, i = 0
+ 1) instance 56 me -206576656
+
+C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015>Hello sub -v -d 2 -t hello -p 7400
+Hello Example Application for TCP transport
+Copyright 2008 Real-Time Innovations, Inc.
+
+Running with the following arguments:
+    Verbosity level.. : 1
+    Payload size..... : 1023
+    Sample count..... : 0
+    Domain ID........ : 2
+    Topic name....... : hello
+RTI Product Version.. : 6.0.0.0
+TCP Settings:
+    Public address... : not set (use LAN mode)
+    Server bind port. : 7400
+    Use async send... : NO
+    Use TLS ......... : NO
+# The output below depends on the QoS profile
+# provided to this application.
+# -> For more information on the provided example
+#    profiles, please see the Getting Started Guide.
+# -> For detailed product performance metrics, visit
+#    http://www.rti.com/products/data_distribution/index.html
+#    and click on Benchmarks.
+
+! Warning:
+! Default QoS profile definition file not found.
+! The application will use the DDS default QoS.
+! If you want to use different QoS, make sure you have the QoS definition file
+! (USER_QOS_PROFILES.xml) in the current working directory
+! or set the environment variable NDDS_QOS_PROFILES to
+! point to a file containing the default QoS profile
+Creating domain participant...
+RTI Connext DDS EVAL License issued to NA shobhavishwanath.kanade@philips.com For non-production use only.
+Expires on 10-Oct-2019 See www.rti.com for more information.
+Creating the topic...
+Creating the data reader...
+
+Sec.from|Total     |Total Lost|Curr Lost |Average   |Current   |Current
+start   |samples   |samples   |samples   |smpls/sec |smpls/sec |Mb/sec
+--------+----------+----------+----------+----------+----------+----------
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: subscription matched.
+->Callback: liveliness changed.
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: data available matched.
+0) data sequence -1651515440, i = 0
+ 1) instance 56 me -1651515824
+
+C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015>Hello sub -v -d 2 -t hello -p 7400
+Hello Example Application for TCP transport
+Copyright 2008 Real-Time Innovations, Inc.
+
+Running with the following arguments:
+    Verbosity level.. : 1
+    Payload size..... : 1023
+    Sample count..... : 0
+    Domain ID........ : 2
+    Topic name....... : hello
+RTI Product Version.. : 6.0.0.0
+TCP Settings:
+    Public address... : not set (use LAN mode)
+    Server bind port. : 7400
+    Use async send... : NO
+    Use TLS ......... : NO
+# The output below depends on the QoS profile
+# provided to this application.
+# -> For more information on the provided example
+#    profiles, please see the Getting Started Guide.
+# -> For detailed product performance metrics, visit
+#    http://www.rti.com/products/data_distribution/index.html
+#    and click on Benchmarks.
+
+! Warning:
+! Default QoS profile definition file not found.
+! The application will use the DDS default QoS.
+! If you want to use different QoS, make sure you have the QoS definition file
+! (USER_QOS_PROFILES.xml) in the current working directory
+! or set the environment variable NDDS_QOS_PROFILES to
+! point to a file containing the default QoS profile
+Creating domain participant...
+RTI Connext DDS EVAL License issued to NA shobhavishwanath.kanade@philips.com For non-production use only.
+Expires on 10-Oct-2019 See www.rti.com for more information.
+Creating the topic...
+Creating the data reader...
+
+Sec.from|Total     |Total Lost|Curr Lost |Average   |Current   |Current
+start   |samples   |samples   |samples   |smpls/sec |smpls/sec |Mb/sec
+--------+----------+----------+----------+----------+----------+----------
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: subscription matched.
+->Callback: liveliness changed.
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: data available matched.
+0) data sequence -631251296, i = 0
+ 1) instance 56 me -631251680
+
+C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015>Hello sub -v -d 2 -t hello -p 7400
+Hello Example Application for TCP transport
+Copyright 2008 Real-Time Innovations, Inc.
+
+Running with the following arguments:
+    Verbosity level.. : 1
+    Payload size..... : 1023
+    Sample count..... : 0
+    Domain ID........ : 2
+    Topic name....... : hello
+RTI Product Version.. : 6.0.0.0
+TCP Settings:
+    Public address... : not set (use LAN mode)
+    Server bind port. : 7400
+    Use async send... : NO
+    Use TLS ......... : NO
+# The output below depends on the QoS profile
+# provided to this application.
+# -> For more information on the provided example
+#    profiles, please see the Getting Started Guide.
+# -> For detailed product performance metrics, visit
+#    http://www.rti.com/products/data_distribution/index.html
+#    and click on Benchmarks.
+
+! Warning:
+! Default QoS profile definition file not found.
+! The application will use the DDS default QoS.
+! If you want to use different QoS, make sure you have the QoS definition file
+! (USER_QOS_PROFILES.xml) in the current working directory
+! or set the environment variable NDDS_QOS_PROFILES to
+! point to a file containing the default QoS profile
+Creating domain participant...
+RTI Connext DDS EVAL License issued to NA shobhavishwanath.kanade@philips.com For non-production use only.
+Expires on 10-Oct-2019 See www.rti.com for more information.
+Creating the topic...
+Creating the data reader...
+
+Sec.from|Total     |Total Lost|Curr Lost |Average   |Current   |Current
+start   |samples   |samples   |samples   |smpls/sec |smpls/sec |Mb/sec
+--------+----------+----------+----------+----------+----------+----------
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: subscription matched.
+->Callback: liveliness changed.
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: data available matched.
+0) data sequence 1248846144, i = 0
+ 1) instance 56 me 1248845760
+
+C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015>Hello sub -v -d 2 -t hello -p 7400
+Hello Example Application for TCP transport
+Copyright 2008 Real-Time Innovations, Inc.
+
+Running with the following arguments:
+    Verbosity level.. : 1
+    Payload size..... : 1023
+    Sample count..... : 0
+    Domain ID........ : 2
+    Topic name....... : hello
+RTI Product Version.. : 6.0.0.0
+TCP Settings:
+    Public address... : not set (use LAN mode)
+    Server bind port. : 7400
+    Use async send... : NO
+    Use TLS ......... : NO
+# The output below depends on the QoS profile
+# provided to this application.
+# -> For more information on the provided example
+#    profiles, please see the Getting Started Guide.
+# -> For detailed product performance metrics, visit
+#    http://www.rti.com/products/data_distribution/index.html
+#    and click on Benchmarks.
+
+! Warning:
+! Default QoS profile definition file not found.
+! The application will use the DDS default QoS.
+! If you want to use different QoS, make sure you have the QoS definition file
+! (USER_QOS_PROFILES.xml) in the current working directory
+! or set the environment variable NDDS_QOS_PROFILES to
+! point to a file containing the default QoS profile
+Creating domain participant...
+RTI Connext DDS EVAL License issued to NA shobhavishwanath.kanade@philips.com For non-production use only.
+Expires on 10-Oct-2019 See www.rti.com for more information.
+Creating the topic...
+Creating the data reader...
+
+Sec.from|Total     |Total Lost|Curr Lost |Average   |Current   |Current
+start   |samples   |samples   |samples   |smpls/sec |smpls/sec |Mb/sec
+--------+----------+----------+----------+----------+----------+----------
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: subscription matched.
+->Callback: liveliness changed.
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: data available matched.
+0) data sequence 491774496, i = 0
+ 1) instance 56 me 491774112
+
+C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015>Hello sub -v -d 2 -t hello -p 7400
+Hello Example Application for TCP transport
+Copyright 2008 Real-Time Innovations, Inc.
+
+Running with the following arguments:
+    Verbosity level.. : 1
+    Payload size..... : 1023
+    Sample count..... : 0
+    Domain ID........ : 2
+    Topic name....... : hello
+RTI Product Version.. : 6.0.0.0
+TCP Settings:
+    Public address... : not set (use LAN mode)
+    Server bind port. : 7400
+    Use async send... : NO
+    Use TLS ......... : NO
+# The output below depends on the QoS profile
+# provided to this application.
+# -> For more information on the provided example
+#    profiles, please see the Getting Started Guide.
+# -> For detailed product performance metrics, visit
+#    http://www.rti.com/products/data_distribution/index.html
+#    and click on Benchmarks.
+
+! Warning:
+! Default QoS profile definition file not found.
+! The application will use the DDS default QoS.
+! If you want to use different QoS, make sure you have the QoS definition file
+! (USER_QOS_PROFILES.xml) in the current working directory
+! or set the environment variable NDDS_QOS_PROFILES to
+! point to a file containing the default QoS profile
+Creating domain participant...
+RTI Connext DDS EVAL License issued to NA shobhavishwanath.kanade@philips.com For non-production use only.
+Expires on 10-Oct-2019 See www.rti.com for more information.
+Creating the topic...
+Creating the data reader...
+
+Sec.from|Total     |Total Lost|Curr Lost |Average   |Current   |Current
+start   |samples   |samples   |samples   |smpls/sec |smpls/sec |Mb/sec
+--------+----------+----------+----------+----------+----------+----------
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: subscription matched.
+->Callback: liveliness changed.
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 56 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+3) payload size 1
+4) sample count 0 ; callback data sample recieved 1
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 49 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 2
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 55 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 3
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 49 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 4
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 49 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 5
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 56 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 6
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 49 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 7
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 49 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 8
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 49 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 9
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 50 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 10
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 50 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 11
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 50 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 12
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 50 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+4) sample count 0 ; callback data sample recieved 13
+No data...
+->Callback: data available matched.
+0) data sequence -140517776, i = 0
+ 1) instance 51 me -140518160
+2) Sample id received -155459108, idchar = -140518216
+^C
+C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015>Hello sub -v -d 2 -t hello -p 7400
+Hello Example Application for TCP transport
+Copyright 2008 Real-Time Innovations, Inc.
+
+Running with the following arguments:
+    Verbosity level.. : 1
+    Payload size..... : 1023
+    Sample count..... : 0
+    Domain ID........ : 2
+    Topic name....... : hello
+RTI Product Version.. : 6.0.0.0
+TCP Settings:
+    Public address... : not set (use LAN mode)
+    Server bind port. : 7400
+    Use async send... : NO
+    Use TLS ......... : NO
+# The output below depends on the QoS profile
+# provided to this application.
+# -> For more information on the provided example
+#    profiles, please see the Getting Started Guide.
+# -> For detailed product performance metrics, visit
+#    http://www.rti.com/products/data_distribution/index.html
+#    and click on Benchmarks.
+
+! Warning:
+! Default QoS profile definition file not found.
+! The application will use the DDS default QoS.
+! If you want to use different QoS, make sure you have the QoS definition file
+! (USER_QOS_PROFILES.xml) in the current working directory
+! or set the environment variable NDDS_QOS_PROFILES to
+! point to a file containing the default QoS profile
+Creating domain participant...
+RTI Connext DDS EVAL License issued to NA shobhavishwanath.kanade@philips.com For non-production use only.
+Expires on 10-Oct-2019 See www.rti.com for more information.
+Creating the topic...
+Creating the data reader...
+
+Sec.from|Total     |Total Lost|Curr Lost |Average   |Current   |Current
+start   |samples   |samples   |samples   |smpls/sec |smpls/sec |Mb/sec
+--------+----------+----------+----------+----------+----------+----------
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: subscription matched.
+->Callback: liveliness changed.
+4) sample count 0 ; callback data sample recieved 0
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+3) payload size 1
+4) sample count 0 ; callback data sample recieved 1
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 2
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 3
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 4
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 5
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 6
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 7
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 8
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 9
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 10
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 11
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 12
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 13
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 14
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 15
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 16
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 17
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 18
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 19
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 20
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 21
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 22
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 23
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 24
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 25
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 26
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 27
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 28
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 29
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 30
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 31
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 32
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 33
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 34
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 35
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 36
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 37
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 38
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 39
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 40
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 41
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 42
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 43
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 44
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 45
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 46
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 47
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 48
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 49
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 50
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 51
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 52
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 53
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 54
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 55
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 56
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 57
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 58
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 59
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 60
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 61
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 62
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 63
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 64
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 65
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 66
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 67
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 68
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 69
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 70
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 71
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 72
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 73
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 74
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 75
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 76
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 77
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 78
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 79
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 80
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 81
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 82
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 83
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 84
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 85
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 86
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 87
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 88
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 89
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 90
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 91
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 92
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 93
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 94
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 95
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 96
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 97
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 98
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 99
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 100
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 101
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 102
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 103
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 104
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 105
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 106
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 107
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 108
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 109
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 110
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 111
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 112
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 113
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 114
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 115
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 116
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 117
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 118
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 119
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 120
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 121
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 122
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 123
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 124
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 125
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 126
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 127
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 128
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 129
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 130
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 131
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 132
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 133
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 134
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 135
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 136
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 137
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 138
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 139
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 140
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 141
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 142
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 143
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 144
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 145
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 146
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 147
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 148
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 149
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 150
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 151
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 152
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 153
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 154
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 155
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 156
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 157
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 158
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 159
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 160
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 161
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 162
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 163
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 164
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 165
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 166
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 167
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 168
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 169
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 170
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 171
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 172
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 173
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 174
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 175
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 176
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 177
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 178
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 179
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 180
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 181
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 182
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 183
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 184
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 185
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 186
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 187
+No data...
+4) sample count 0 ; callback data sample recieved 187
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 188
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 189
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 190
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 191
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 192
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 193
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 194
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 195
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 196
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 197
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 198
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 199
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 200
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 201
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 202
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 203
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 204
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 205
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 206
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 207
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 208
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 209
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 210
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 211
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 212
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 213
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 214
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 215
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 216
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 217
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 218
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 219
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 220
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 221
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 222
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 223
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 224
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 225
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 226
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 227
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 228
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 229
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 230
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 231
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 232
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 233
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 234
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 235
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 236
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 237
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 238
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 239
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 240
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 241
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 242
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 243
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 244
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 245
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 246
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 247
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 248
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 249
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 250
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 251
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 252
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 253
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 254
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 255
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 256
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 257
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 258
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 259
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 260
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 261
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 262
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 263
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 264
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 265
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 266
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 267
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 268
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 269
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 270
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 271
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 272
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 273
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 274
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 275
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 276
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 277
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 278
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 279
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 280
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 281
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 282
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 283
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 284
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 285
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 286
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 287
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 288
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 289
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 290
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 291
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 292
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 293
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 294
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 295
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 296
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 297
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 298
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 299
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 300
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 301
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 302
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 303
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 304
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 305
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 306
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 307
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 308
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 309
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 310
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 311
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 312
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 313
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 314
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 315
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 316
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 317
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 318
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 319
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 320
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 321
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 322
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 323
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 324
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 325
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 326
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 327
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 328
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 329
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 330
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 331
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 332
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 333
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 334
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 335
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 336
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 337
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 338
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 339
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 340
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 341
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 342
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 343
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 344
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 345
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 346
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 347
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 348
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 349
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 350
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 351
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 352
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 353
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 354
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 355
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 356
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 357
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 358
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 359
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 360
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 361
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 362
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 363
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 364
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 365
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 366
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 367
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 368
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 369
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 370
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 371
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 372
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 373
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 374
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 375
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 376
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 377
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 378
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 379
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 380
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 381
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 382
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 383
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 384
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 385
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 386
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 387
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 388
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 389
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 390
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 391
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 392
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 393
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 394
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 395
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 396
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 397
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 398
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 399
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 400
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 401
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 402
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 403
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 404
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 405
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 406
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 407
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 408
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 409
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 410
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 411
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 412
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 413
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 414
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 415
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 416
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 417
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 418
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 419
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 420
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 421
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 422
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 423
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 424
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 425
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 426
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 427
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 428
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 429
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 430
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 431
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 432
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 433
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 434
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 435
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 436
+No data...
+4) sample count 0 ; callback data sample recieved 436
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+No data...
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 437
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 438
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 439
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 440
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 441
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 442
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 443
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 444
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 445
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 446
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 447
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 448
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 449
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 450
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 451
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 452
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 453
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 454
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 455
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 456
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 457
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 458
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 459
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 460
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 50 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 461
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 462
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 463
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 464
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 465
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 466
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 467
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 468
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 45 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 469
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 53 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 470
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 471
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 472
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 51 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 473
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 474
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 475
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 52 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 476
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 477
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 478
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 54 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 479
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 56 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 480
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 481
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 482
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 57 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 483
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 484
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 55 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+4) sample count 0 ; callback data sample recieved 485
+No data...
+->Callback: data available matched.
+0) data sequence 676324400, i = 0
+ 1) instance 49 me 676324016
+2) Sample id received 663742140, idchar = 676323856
+^C
+C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015>

@@ -1,0 +1,17 @@
+********BUILTIN TCP COMMANDS**************************
+Publisher:
+
+IP Address:192.168.0.100
+
+1. set NDDSHOME=C:\Program Files\rti_connext_dds-6.0.0
+2. set NDDS_DISCOVERY_PEERS=tcpv4_lan://192.168.0.101:7400
+3. C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015
+4. Hello.exe pub -v -d 2 -t hello -p 7401
+
+
+SUBSCRIBER: 
+IP Address: 192.168.0.101
+1. set NDDSHOME=C:\rti\rti_connext_dds-6.0.0
+2. set NDDS_DISCOVERY_PEERS=tcp4_lan://192.168.0.100:7401
+3. C:\Users\320072200\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\objs\x64Win64VS2015
+4. Hello sub -v -d 2 -t hello -p 7400

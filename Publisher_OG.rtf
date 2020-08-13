@@ -1,0 +1,190 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green128\blue0;\red0\green0\blue0;\red128\green128\blue128;\red163\green21\blue21;\red111\green0\blue138;\red0\green0\blue255;\red43\green145\blue175;\red47\green79\blue79;}
+{\*\generator Riched20 10.0.17763}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\f0\fs19\lang9 /*****************************************************************************/\cf2\par
+\cf1 /*         (c) Copyright, Real-Time Innovations, All rights reserved.        */\cf2\par
+\cf1 /*                                                                           */\cf2\par
+\cf1 /*         Permission to modify and use for internal purposes granted.       */\cf2\par
+\cf1 /* This software is provided "as is", without warranty, express or implied.  */\cf2\par
+\cf1 /*                                                                           */\cf2\par
+\cf1 /*****************************************************************************/\cf2\par
+\par
+\par
+\cf3 #include\cf2  \cf4 "Hello.h"\cf2\par
+\cf3 #include\cf2  \cf4 "HelloPublisher.h"\cf2\par
+\par
+\cf1 /* Defines the maximum number of consecutive write errors. */\cf2\par
+\cf3 #define\cf2  \cf5 MAX_CONSECUTIVE_WRITE_ERROR\cf2          10\par
+\par
+\cf6 int\cf2  RTI_SNPRINTF(\par
+\tab\cf6 char\cf2  *\cf3 buffer\cf2 ,\par
+\tab\cf7 size_t\cf2  \cf3 count\cf2 ,\par
+\tab\cf6 const\cf2  \cf6 char\cf2  *\cf3 format\cf2 , ...)\par
+\{\par
+\tab\cf6 int\cf2  length;\par
+\tab\cf7 va_list\cf2  ap;\par
+\tab\cf5 va_start\cf2 (ap, \cf3 format\cf2 );\par
+\cf3 #ifdef\cf2  \cf5 RTI_WIN32\cf2\par
+\tab length = _vsnprintf_s(\cf3 buffer\cf2 , \cf3 count\cf2 , \cf3 count\cf2 , \cf3 format\cf2 , ap);\par
+\cf3 #else\cf2\par
+\tab length = vsnprintf(buffer, count, format, ap);\par
+\cf3 #endif\cf2\par
+\tab\cf5 va_end\cf2 (ap);\par
+\tab\cf6 return\cf2  length;\par
+\}\par
+\par
+\cf1 /*****************************************************************************/\cf2\par
+\cf1 /* start_publisher                                                           */\cf2\par
+\cf1 /*                                                                           */\cf2\par
+\cf1 /* Creates the DDS publisher and data writers, then start sending the data.  */\cf2\par
+\cf1 /*                                                                           */\cf2\par
+\cf1 /* Input:                                                                    */\cf2\par
+\cf1 /*   participant: the DDS domain participant to use                          */\cf2\par
+\cf1 /*   topic: the DDS topic to use for publishing                              */\cf2\par
+\cf1 /*   dataSise: size of the payload buffer to send                            */\cf2\par
+\cf1 /*                                                                           */\cf2\par
+\cf1 /* Returns:                                                                  */\cf2\par
+\cf1 /*   The boolean value DDS_BOOLEAN_TRUE if an error occurred.                */\cf2\par
+\cf1 /*                                                                           */\cf2\par
+\cf1 /*****************************************************************************/\cf2\par
+\cf7 DDS_Boolean\cf2  start_publisher(\par
+\tab\cf7 DDS_DomainParticipant\cf2  *\cf3 participant\cf2 ,\par
+\tab\cf7 DDS_Topic\cf2  *\cf3 topic\cf2 ,\par
+\tab\cf7 DDS_Boolean\cf2  \cf3 verbose\cf2 ,\par
+\tab\cf7 DDS_Long\cf2  \cf3 data_size\cf2 ,\par
+\tab\cf7 DDS_Long\cf2  \cf3 sampleCount\cf2 ) \{\par
+\tab\cf7 DDS_DataWriter\cf2  *data_writer = \cf5 NULL\cf2 ;\par
+\tab\cf7 DDS_StringDataWriter\cf2  *hello_writer = \cf5 NULL\cf2 ;\par
+\tab\cf6 char\cf2  *instance = \cf5 NULL\cf2 ;\par
+\tab\cf7 DDS_Boolean\cf2  return_value = \cf5 DDS_BOOLEAN_FALSE\cf2 ;\par
+\tab\cf7 DDS_Long\cf2  i;\par
+\tab\cf7 DDS_Long\cf2  count;\par
+\tab\cf7 DDS_ReturnCode_t\cf2  rc;\par
+\par
+\tab\cf1 /* Creates the DDS Data writer.\cf2\par
+\cf1\tab * Just like before, if you want to customize the writer QoS,\cf2\par
+\cf1\tab * use DDS_Publisher_get_default_datawriter_qos() to\cf2\par
+\cf1\tab * initialize a local copy of the default QoS, modify them, then\cf2\par
+\cf1\tab * use them in the creation call below instead of\cf2\par
+\cf1\tab * DDS_DATAWRITER_QOS_DEFAULT.\cf2\par
+\cf1\tab * For more data writer API info, see:\cf2\par
+\cf1\tab *     $NDDSHOME/doc/html/api_c/group__DDSWriterModule.html\cf2\par
+\cf1\tab */\cf2\par
+\tab\cf6 if\cf2  (\cf3 verbose\cf2 ) \{\par
+\tab\tab printf(\cf4 "Creating the data writer...\\n"\cf2 );\par
+\tab\}\par
+\tab data_writer = DDS_DomainParticipant_create_datawriter(\par
+\tab\tab\cf3 participant\cf2 ,\par
+\tab\tab\cf3 topic\cf2 ,\par
+\tab\tab &DDS_DATAWRITER_QOS_DEFAULT,\par
+\tab\tab\cf5 NULL\cf2 ,           \cf1 /* listener */\cf2\par
+\tab\tab\cf5 DDS_STATUS_MASK_NONE\cf2 );\par
+\tab\cf6 if\cf2  (data_writer == \cf5 NULL\cf2 ) \{\par
+\tab\tab fprintf(\cf5 stderr\cf2 , \cf4 "! Unable to create DDS data writer\\n"\cf2 );\par
+\tab\tab\cf6 goto\cf2  exitFn;\par
+\tab\}\par
+\par
+\tab\cf1 /* The following narrow function should never fail, as it performs\cf2\par
+\cf1\tab * only a safe cast of the generic data writer into a specific\cf2\par
+\cf1\tab * DDS_StringDataWriter.\cf2\par
+\cf1\tab * In our case the following cast would do the same job:\cf2\par
+\cf1\tab *     hello_writer = (DDS_StringDataWriter *)data_writer;\cf2\par
+\cf1\tab */\cf2\par
+\tab hello_writer = DDS_StringDataWriter_narrow(data_writer);\par
+\tab\cf6 if\cf2  (hello_writer == \cf5 NULL\cf2 ) \{\par
+\tab\tab fprintf(\cf5 stderr\cf2 , \cf4 "! Unable to narrow data writer into "\cf2\par
+\tab\tab\tab\cf4 "DDS_String writer\\n"\cf2 );\par
+\tab\tab\cf6 goto\cf2  exitFn;\par
+\tab\}\par
+\par
+\tab\cf1 /* The string we are sending will have the following form:\cf2\par
+\cf1\tab * - 10 characters (padded with spaces) will contain a sequence number,\cf2\par
+\cf1\tab *   in ASCII character\cf2\par
+\cf1\tab * - the rest of the string (data_size - 10) will contain just 'ABCDEF...'\cf2\par
+\cf1\tab * The string buffer is managed by the application.\cf2\par
+\cf1\tab */\cf2\par
+\tab\cf1 //instance = DDS_String_alloc(data_size); \cf2\par
+\tab instance = DDS_String_alloc(7500); \cf1 //edit\cf2\par
+\tab\cf6 if\cf2  (instance == \cf5 NULL\cf2 ) \{\par
+\tab\tab fprintf(\cf5 stderr\cf2 , \cf4 "! Unable to create an instance of the data\\n"\cf2 );\par
+\tab\tab fprintf(\cf5 stderr\cf2 , \cf4 "! This problem most likely is caused by "\cf2\par
+\tab\tab\tab\cf4 "out of memory\\n"\cf2 );\par
+\tab\tab\cf6 goto\cf2  exitFn;\par
+\tab\}\par
+\par
+\par
+\tab\cf1 /* Fill up the buffer with some valid data:\cf2\par
+\cf1\tab * The content of the payload buffer is a progressive series of incremental\cf2\par
+\cf1\tab * numbers, starting from 0.\cf2\par
+\cf1\tab */\cf2\par
+\tab\cf6 for\cf2  (i = 0; i < \cf3 data_size\cf2  - 1; ++i) \{\par
+\tab\tab instance[i] = (i < 11) ? \cf4 ' '\cf2  : (\cf4 'A'\cf2  + (i % 26));\par
+\tab\}\par
+\tab instance[i] = \cf4 '\\0'\cf2 ; \cf1 /* write() will use strlen to determine the length */\cf2\par
+\tab\tab\tab\tab\tab\tab\cf1 /*******************EDITED HERE IMAGE CODE***********************/\cf2\par
+\tab\tab\tab\tab\tab\tab\cf1 /*size_t imgsize;\cf2\par
+\cf1\tab\tab\tab\tab\tab\tab pixdata(&imgsize);\cf2\par
+\cf1\tab\tab\tab\tab\tab\tab printf("from pub imgsize=%d\\n", imgsize); */\cf2\par
+\tab\tab\tab\tab\tab\tab\cf1 /*********************END***************************************/\cf2\par
+\tab\tab\tab\tab\tab\tab\cf1 /* Send the data! */\cf2\par
+\tab printf(\cf4 "Sending data...\\n"\cf2 );\par
+\tab i = 0; \cf1 /* Use 'i' to keep track of consecutive write errors */\cf2\par
+\tab\cf6 for\cf2  (count = 0;; ++count) \{\par
+\tab\tab\cf1 /* Conversion of an integer to a string in snprintf is relatively\cf2\par
+\cf1\tab\tab * expensive and could impact the throughput. But since this is\cf2\par
+\cf1\tab\tab * just an example, let's keep it simple.\cf2\par
+\cf1\tab\tab */\cf2\par
+\tab\tab RTI_SNPRINTF(instance, 10, \cf4 "%9d"\cf2 , count);\par
+\tab\tab instance[9] = \cf4 ' '\cf2 ; \cf1 /* Remove the '\\0' introduced by snprintf */\cf2\par
+\tab\tab rc = DDS_StringDataWriter_write(\par
+\tab\tab\tab hello_writer,\par
+\tab\tab\tab instance,\par
+\tab\tab\tab &DDS_HANDLE_NIL);\par
+\tab\tab\cf6 if\cf2  (rc != \cf8 DDS_RETCODE_OK\cf2 ) \{\par
+\tab\tab\tab fprintf(\cf5 stderr\cf2 , \cf4 "! Write error %d\\n"\cf2 , rc);\par
+\tab\tab\tab\cf6 if\cf2  (++i > \cf5 MAX_CONSECUTIVE_WRITE_ERROR\cf2 ) \{\par
+\tab\tab\tab\tab fprintf(\cf5 stderr\cf2 , \cf4 "! Reached maximum number of failure, "\cf2\par
+\tab\tab\tab\tab\tab\cf4 "stopping writer...\\n"\cf2 );\par
+\tab\tab\tab\tab\cf6 goto\cf2  exitFn;\par
+\tab\tab\tab\}\par
+\tab\tab\}\par
+\tab\tab\cf6 else\cf2  \{\par
+\tab\tab\tab i = 0;  \cf1 /* Always clear the error count in case of successful write */\cf2\par
+\tab\tab\}\par
+\tab\tab\cf6 if\cf2  (\cf3 verbose\cf2  && (count % 10000) == 0) \{\par
+\tab\tab\tab printf(\cf4 "Sent %d samples...\\n"\cf2 , count);\par
+\tab\tab\tab fflush(\cf5 stdout\cf2 );\par
+\tab\tab\}\par
+\tab\tab\cf1 /* Stop after sampleCount sent */\cf2\par
+\tab\tab\cf6 if\cf2  (\cf3 sampleCount\cf2  != 0 && (count >= \cf3 sampleCount\cf2 )) \{\par
+\tab\tab\tab fprintf(\cf5 stderr\cf2 , \cf4 "\\nSent %d samples.\\n"\cf2 , count);\par
+\tab\tab\tab\cf6 break\cf2 ;\par
+\tab\tab\}\par
+\par
+\tab\tab\cf6 if\cf2  (count < 20) \{\par
+\tab\tab\tab\cf6 struct\cf2  \cf7 DDS_Duration_t\cf2  initialSendPeriod = \{ 1, 0 \};\par
+\tab\tab\tab fprintf(\cf5 stderr\cf2 ,\par
+\tab\tab\tab\tab\cf4 "\\nSending %d out of 20 samples before speeding up...\\n"\cf2 ,\par
+\tab\tab\tab\tab count);\par
+\tab\tab\tab NDDS_Utility_sleep(&initialSendPeriod);\par
+\tab\tab\}\par
+\tab\tab\cf6 else\cf2  \cf6 if\cf2  (count == 20) \{\par
+\tab\tab\tab fprintf(\cf5 stderr\cf2 , \cf4 "Speeding up now!!\\n"\cf2 );\par
+\tab\tab\}\par
+\tab\}\par
+\par
+\tab\cf1 /* This code is reached only if sampleCount is set */\cf2\par
+\tab return_value = \cf5 DDS_BOOLEAN_TRUE\cf2 ;\par
+\par
+exitFn:\par
+\tab\cf6 if\cf2  (instance != \cf5 NULL\cf2 ) \{\par
+\tab\tab DDS_String_free(instance);\par
+\tab\tab instance = \cf5 NULL\cf2 ;\par
+\tab\}\par
+\par
+\tab\cf6 return\cf2  return_value;\par
+\}\par
+\par
+\cf0\f1\fs22\par
+}
+ 
