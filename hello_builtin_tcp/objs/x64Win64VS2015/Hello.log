@@ -1,0 +1,11 @@
+﻿  HelloSubscriber.c
+../src\HelloSubscriber.c(286): warning C4013: 'stbi_write_jpg' undefined; assuming extern returning int
+../src\HelloSubscriber.c(475): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  ../src\HelloSubscriber.c(475): note: consider using '%lld' in the format string
+  ../src\HelloSubscriber.c(475): note: consider using '%Id' in the format string
+  ../src\HelloSubscriber.c(475): note: consider using '%I64d' in the format string
+../src\HelloSubscriber.c(331): warning C4101: 'stat_delta_time_sec': unreferenced local variable
+../src\HelloSubscriber.c(329): warning C4101: 'time_now': unreferenced local variable
+../src\HelloSubscriber.c(337): warning C4101: 'stat_samples_lost': unreferenced local variable
+  Hello-x64Win64VS2015.vcxproj -> C:\Users\320069490\Documents\rti_workspace\6.0.0\examples\connext_dds\c\hello_builtin_tcp\win32\..\.\objs\x64Win64VS2015\Hello.exe
+  Hello-x64Win64VS2015.vcxproj -> ..\.\objs\x64Win64VS2015\Hello.pdb (Full PDB)
