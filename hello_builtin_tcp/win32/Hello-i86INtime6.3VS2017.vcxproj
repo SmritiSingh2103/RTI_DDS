@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug RSL|INtime">
+      <Configuration>Debug RSL</Configuration>
+      <Platform>INtime</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|INtime">
+      <Configuration>Debug</Configuration>
+      <Platform>INtime</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release RSL|INtime">
+      <Configuration>Release RSL</Configuration>
+      <Platform>INtime</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|INtime">
+      <Configuration>Release</Configuration>
+      <Platform>INtime</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Condition="'$(RTI_VS_WINDOWS_TARGET_PLATFORM_VERSION)'==''" Label="RTI VS SDK">
+    <RTI_VS_WINDOWS_TARGET_PLATFORM_VERSION>10.0.17134.0</RTI_VS_WINDOWS_TARGET_PLATFORM_VERSION>
+  </PropertyGroup>  
+  <PropertyGroup Label="RTI Connext Path">
+      <LocalDebuggerEnvironment>PATH=$(NDDSHOME)\lib\i86INtime6.3VS2017</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Hello</ProjectName>
+    <RootNamespace>Hello</RootNamespace>
+<WindowsTargetPlatformVersion>$(RTI_VS_WINDOWS_TARGET_PLATFORM_VERSION)</WindowsTargetPlatformVersion>
+    <ProjectGuid>{BF900500-D48B-438B-827F-01512AC24AB1}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release RSL|INtime'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|INtime'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>   
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug RSL|INtime'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>  
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset> 
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release RSL|INtime'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|INtime'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug RSL|INtime'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.21006.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">..\.\objs\i86INtime6.3VS2017\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">..\.\objs\i86INtime6.3VS2017\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug RSL|INtime'">..\.\objs\i86INtime6.3VS2017\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug RSL|INtime'">..\.\objs\i86INtime6.3VS2017\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">..\.\objs\i86INtime6.3VS2017\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">..\.\objs\i86INtime6.3VS2017\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release RSL|INtime'">..\.\objs\i86INtime6.3VS2017\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release RSL|INtime'">..\.\objs\i86INtime6.3VS2017\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">
+    <Midl>
+      <TypeLibraryName>..\.\objs\i86INtime6.3VS2017\Hello.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(INtime)rt\include\cpp17;$(INtime)rt\include\network7;$(INtime)rt\include;$(NDDSHOME)\include;$(NDDSHOME)\include\ndds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;RTI_STATIC;__C99__;__INTIME__;RTI_INTIME;__INTIME_CPP17;_HAS_NAMESPACE;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader></PrecompiledHeader>
+      <PrecompiledHeaderOutputFile></PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>..\.\objs\i86INtime6.3VS2017\</AssemblerListingLocation>
+      <ObjectFileName>..\.\objs\i86INtime6.3VS2017\</ObjectFileName>
+      <ProgramDataBaseFileName>..\.\objs\i86INtime6.3VS2017\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+      <OmitFramePointers>false</OmitFramePointers>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>windows.h;iwin32.h;winbase.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>nddstransporttcpzd.lib;nddsczd.lib;nddscorezd.lib;iwin32.lib;cpplib17d.lib;rt.lib;pcibus.lib;netlib.lib;clib.lib;vshelper.lib</AdditionalDependencies>
+      <OutputFile>..\.\objs\i86INtime6.3VS2017\Hello.rta</OutputFile>
+      <Version>21076.20053</Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(NDDSHOME)\lib\i86INtime6.3VS2017;$(INtime)rt\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\.\objs\i86INtime6.3VS2017\Hello.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <StackCommitSize>16777216</StackCommitSize>
+      <StackReserveSize>16777216</StackReserveSize>
+      <LinkIncremental>false</LinkIncremental>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+    </Link>
+    <BuildLog>
+      <Path>$(ProjectDir)..\.\objs\i86INtime6.3VS2017\Hello.log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug RSL|INtime'">
+    <Midl>
+      <TypeLibraryName>..\.\objs\i86INtime6.3VS2017\Hello.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(INtime)rt\include\cpp17;$(INtime)rt\include\network7;$(INtime)rt\include;$(NDDSHOME)\include;$(NDDSHOME)\include\ndds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDDS_DLL_VARIABLE;_DEBUG;_CONSOLE;__C99__;__INTIME__;RTI_INTIME;__INTIME_CPP17;_HAS_NAMESPACE;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader></PrecompiledHeader>
+      <PrecompiledHeaderOutputFile></PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>..\.\objs\i86INtime6.3VS2017\</AssemblerListingLocation>
+      <ObjectFileName>..\.\objs\i86INtime6.3VS2017\</ObjectFileName>
+      <ProgramDataBaseFileName>..\.\objs\i86INtime6.3VS2017\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+      <OmitFramePointers>false</OmitFramePointers>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>windows.h;iwin32.h;winbase.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>nddstransporttcpd.lib;nddscd.lib;nddscored.lib;iwin32.lib;cpplib17d.lib;rt.lib;pcibus.lib;netlib.lib;clib.lib;vshelper.lib</AdditionalDependencies>
+      <OutputFile>..\.\objs\i86INtime6.3VS2017\Hello.rta</OutputFile>
+      <Version>21076.20053</Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(NDDSHOME)\lib\i86INtime6.3VS2017;$(INtime)rt\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\.\objs\i86INtime6.3VS2017\Hello.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <StackCommitSize>16777216</StackCommitSize>
+      <StackReserveSize>16777216</StackReserveSize>
+      <LinkIncremental>false</LinkIncremental>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+   </Link>
+    <BuildLog>
+      <Path>$(ProjectDir)..\.\objs\i86INtime6.3VS2017\Hello.log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">
+    <Midl>
+      <TypeLibraryName>..\.\objs\i86INtime6.3VS2017\Hello.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>$(INtime)rt\include\cpp17;$(INtime)rt\include\network7;$(INtime)rt\include;$(NDDSHOME)\include;$(NDDSHOME)\include\ndds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;RTI_STATIC;__C99__;__INTIME__;RTI_INTIME;__INTIME_CPP17;_HAS_NAMESPACE;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader></PrecompiledHeader>
+      <PrecompiledHeaderOutputFile></PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>..\.\objs\i86INtime6.3VS2017\</AssemblerListingLocation>
+      <ObjectFileName>..\.\objs\i86INtime6.3VS2017\</ObjectFileName>
+      <ProgramDataBaseFileName>..\.\objs\i86INtime6.3VS2017\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+      <OmitFramePointers>false</OmitFramePointers>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ForcedIncludeFiles>windows.h;iwin32.h;winbase.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>nddstransporttcpz.lib;nddscz.lib;nddscorez.lib; iwin32.lib;cpplib17.lib;rt.lib;pcibus.lib;netlib.lib;clib.lib;vshelper.lib</AdditionalDependencies>
+      <OutputFile>..\.\objs\i86INtime6.3VS2017\Hello.rta</OutputFile>
+      <Version>21076.20053</Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(NDDSHOME)\lib\i86INtime6.3VS2017;$(INtime)rt\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>..\.\objs\i86INtime6.3VS2017\Hello.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <StackCommitSize>16777216</StackCommitSize>
+      <StackReserveSize>16777216</StackReserveSize>
+      <LinkIncremental>false</LinkIncremental>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+    </Link>
+    <BuildLog>
+      <Path>$(ProjectDir)..\.\objs\i86INtime6.3VS2017\Hello.log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release RSL|INtime'">
+    <Midl>
+      <TypeLibraryName>..\.\objs\i86INtime6.3VS2017\Hello.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>$(INtime)rt\include\cpp17;$(INtime)rt\include\network7;$(INtime)rt\include;$(NDDSHOME)\include;$(NDDSHOME)\include\ndds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDDS_DLL_VARIABLE;NDEBUG;_CONSOLE;__C99__;__INTIME__;RTI_INTIME;__INTIME_CPP17;_HAS_NAMESPACE;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader></PrecompiledHeader>
+      <PrecompiledHeaderOutputFile></PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>..\.\objs\i86INtime6.3VS2017\</AssemblerListingLocation>
+      <ObjectFileName>..\.\objs\i86INtime6.3VS2017\</ObjectFileName>
+      <ProgramDataBaseFileName>..\.\objs\i86INtime6.3VS2017\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+      <OmitFramePointers>false</OmitFramePointers>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ForcedIncludeFiles>windows.h;iwin32.h;winbase.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>nddstransporttcp.lib;nddsc.lib;nddscore.lib;iwin32.lib;cpplib17.lib;rt.lib;pcibus.lib;netlib.lib;clib.lib;vshelper.lib</AdditionalDependencies>
+      <OutputFile>..\.\objs\i86INtime6.3VS2017\Hello.rta</OutputFile>
+      <Version>21076.20053</Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(NDDSHOME)\lib\i86INtime6.3VS2017;$(INtime)rt\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>..\.\objs\i86INtime6.3VS2017\Hello.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <StackCommitSize>16777216</StackCommitSize>
+      <StackReserveSize>16777216</StackReserveSize>
+      <LinkIncremental>false</LinkIncremental>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+    </Link>
+    <BuildLog>
+      <Path>$(ProjectDir)..\.\objs\i86INtime6.3VS2017\Hello.log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="../src\Hello.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">Disabled</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src\HelloPublisher.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">Disabled</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src\HelloSubscriber.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">Disabled</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../src\Hello.h" />
+    <ClInclude Include="../src\HelloPublisher.h" />
+    <ClInclude Include="../src\HelloSubscriber.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="USER_QOS_PROFILES.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

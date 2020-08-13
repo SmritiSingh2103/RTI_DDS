@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello", "Hello-i86INtime6.3VS2017.vcxproj", "{BF900500-D48B-438B-827F-01512AC24AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug RSL|INtime = Debug RSL|INtime
+		Debug|INtime = Debug|INtime
+		Release RSL|INtime = Release RSL|INtime
+		Release|INtime = Release|INtime
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF900500-D48B-438B-827F-01512AC24AB1}.Debug RSL|INtime.ActiveCfg = Debug RSL|INtime
+		{BF900500-D48B-438B-827F-01512AC24AB1}.Debug RSL|INtime.Build.0 = Debug RSL|INtime
+		{BF900500-D48B-438B-827F-01512AC24AB1}.Debug|INtime.ActiveCfg = Debug|INtime
+		{BF900500-D48B-438B-827F-01512AC24AB1}.Debug|INtime.Build.0 = Debug|INtime
+		{BF900500-D48B-438B-827F-01512AC24AB1}.Release RSL|INtime.ActiveCfg = Release RSL|INtime
+		{BF900500-D48B-438B-827F-01512AC24AB1}.Release RSL|INtime.Build.0 = Release RSL|INtime
+		{BF900500-D48B-438B-827F-01512AC24AB1}.Release|INtime.ActiveCfg = Release|INtime
+		{BF900500-D48B-438B-827F-01512AC24AB1}.Release|INtime.Build.0 = Release|INtime
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
